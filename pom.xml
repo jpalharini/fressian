@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.fressian</groupId>
   <artifactId>fressian</artifactId>
-  <version>0.6.9-SNAPSHOT</version>
+  <version>0.7.0-list-converter</version>
   <name>fressian</name>
   <packaging>jar</packaging>
   <description>Fressian is an extensible binary data notation.</description>
@@ -138,7 +138,7 @@
         </configuration>
       </plugin>
 
-      <!-- sign artifacts for deployment -->
+      <!-- sign artifacts for deployment 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
@@ -152,7 +152,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin> -->
     </plugins>
   </build>
 </project>
